@@ -5,20 +5,6 @@ Coronavirus disease 2019 (COVID-19) time series listing confirmed cases, reporte
 [covid]: https://en.wikipedia.org/wiki/Coronavirus_disease_2019
 [sars2]: https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2
 
-This dataset includes time series data tracking the number of people affected by COVID-19 worldwide, including:
-
-- confirmed tested cases of Coronavirus infection
-- the number of people who have reportedly died while sick with Coronavirus
-- the number of people who have reportedly recovered from it
-
-## Data
-
-Data is in CSV format and updated daily. It is sourced from [this upstream repository](https://github.com/CSSEGISandData/COVID-19) maintained by the amazing team at [Johns Hopkins University Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) who have been doing a great public service from an early point by collating data from around the world.
-
-We have cleaned and normalized that data, for example tidying dates and consolidating several files into normalized time series. We have also added some metadata such as column descriptions and [data packaged it][dp].
-
-You can view the data, its structure as well as download it in alternative formats (e.g. JSON) from the DataHub:
-
 https://datahub.io/core/covid-19
 
 [dp]: https://frictionlessdata.io/data-package/
